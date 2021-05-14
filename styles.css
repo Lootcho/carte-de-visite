@@ -2,17 +2,12 @@ html,
 body {
   margin: 0 auto;
   padding: 0;
-  /* font-size: 62.5%; */
   background-color: #f0f0f0;
+  font-family: "Roboto", sans-serif;
+  color: rgb(22, 22, 22);
 }
-.header {
-  height: 200px;
-  /* background-image: url("./assets/soleil.JPG"); */
-  /* background-color: #b3d9be; */
-  background-color: #e4ce97;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+h3 {
+  text-align: center;
 }
 .lm {
   color: #fff;
@@ -25,25 +20,31 @@ body {
 .firstColone {
   display: flex;
   flex-direction: column;
-  align-items: center;
   width: 40%;
-  /* background-color: #66b8c9; */
-  background-color: #faebc6;
+  background-color: #dadada;
+  padding-left: 20px;
+  padding-top: 50px;
 }
 .rond {
   width: 150px;
   height: 150px;
-  border: 2px solid red;
   border-radius: 75px;
+  object-fit: cover;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 150px;
+}
+.picture {
+  border: 2px solid rgb(22, 22, 22);
 }
 .secondColone {
   display: flex;
   flex-direction: column;
   width: 60%;
   background-color: #fbf4f4;
+  padding-top: 50px;
 }
 .content {
-  height: 200px;
   padding: 20px;
 }
 .post-title {
@@ -54,20 +55,15 @@ body {
 }
 
 .soft-content {
-  display: inline-block;
-  list-style-type: none;
-  padding-left: 0;
-  font-size: 0px;
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 .soft-items {
-  display: inline-block;
-  font-size: 15px;
-  padding: 5px 40px;
+  flex: 1;
 }
 .soft-logo {
   width: 50px;
   height: 50px;
-}
-.fleche {
-  list-style-type: disc;
 }
